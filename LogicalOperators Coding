@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class LogicalOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int amount= 900;
+		int balance= 100;
+		if  ((amount <= 1000.0) && (amount <= balance))
+		{double newbalance = balance - amount;  
+		System.out.println("new balance= "+ newbalance);
+		}
+		if  ((amount <= 1000.0) || (amount <= balance))
+		{double newbalance = balance - amount;  
+		System.out.println("new balance2= "+ newbalance);
+		}
+
+	}
+
+}
