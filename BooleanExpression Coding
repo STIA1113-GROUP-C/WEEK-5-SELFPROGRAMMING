@@ -1,0 +1,37 @@
+package selfProgramming;
+
+public class BooleanExpression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double amount= 40;
+		double balance= 30;
+		
+		if (amount == balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 1= "+ newbalance);
+		}
+		if (amount != balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 2= "+ newbalance);
+		}
+		if (amount < balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 3= "+ newbalance);
+		}
+		if (amount > balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 4= "+ newbalance);
+		}
+		if (amount <= balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 5= "+ newbalance);
+		}
+		if (amount >= balance)
+		{  double newbalance = balance - amount; 
+		System.out.println("new balance 6= "+ newbalance);
+		}
+	}
+
+}
