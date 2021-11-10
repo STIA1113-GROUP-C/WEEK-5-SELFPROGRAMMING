@@ -1,0 +1,31 @@
+package selfProgramming;
+
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int amount = 400;
+		int balance = 200;
+		int penalty = 300;
+		
+		if (amount <= balance)
+		{ int newbalance = balance - amount;
+		System.out.println("new balance= "+ newbalance);
+		}
+		else
+		{ int newbalance = balance - penalty;
+		System.out.println("TRANSACTION NOT ALLOWED");
+		}
+		
+		int age = 26;
+		if  ((age >= 25) && (age <= 50))
+		{ System.out.println("You are qualified to apply");
+		}
+		else 
+		{System.out.println("You are NOT qualified to apply"); 
+		}
+
+	}
+
+}
